@@ -2,7 +2,7 @@
   margin:0;
   padding:0;
   box-sizing:border-box;
-  font-family:Georgia, serif;
+  font-family:Georgia, sans-serif;
 }
 
 body{
@@ -38,6 +38,13 @@ header{
   margin:5px auto;
 }
 
+.linha{
+  width:180px;
+  height:2px;
+  background:#bdbdbd;
+  margin:5px auto;
+}
+
 .logo p{
   font-size:12px;
   letter-spacing:5px;
@@ -62,20 +69,6 @@ nav a:hover{
   color:#c79b42;
 }
 
-nav a::after{
-  content:"";
-  position:absolute;
-  left:0;
-  bottom:-5px;
-  width:0;
-  height:2px;
-  background:#c79b42;
-  transition:0.3s;
-}
-
-nav a:hover::after{
-  width:100%;
-}
 
 .btn-login{
   padding:12px 28px;
