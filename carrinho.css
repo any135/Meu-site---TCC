@@ -20,15 +20,22 @@ header{
   padding:0 50px;
 }
 
-.logo-container{
+.logo{
   text-align:center;
 }
 
-.logo-container h1{
+.logo h1{
   font-size:40px;
   letter-spacing:6px;
   color:#000;
   font-weight:300;
+}
+
+.linha-logo{
+  width:180px;
+  height:2px;
+  background:#bdbdbd;
+  margin:5px auto;
 }
 
 .linha{
@@ -38,7 +45,7 @@ header{
   margin:5px auto;
 }
 
-.logo-container p{
+.logo p{
   font-size:12px;
   letter-spacing:5px;
   color:#6c7d8f;
@@ -52,24 +59,27 @@ nav{
 
 nav a{
   text-decoration:none;
-  color:black;
+  color:#000;
   font-size:18px;
   transition:0.3s;
+  position:relative;
 }
 
 nav a:hover{
   color:#c79b42;
 }
 
-.btn-entrar{
-  border:1px solid #c79b42;
+
+.btn-login{
   padding:12px 28px;
-  border-radius:5px;
+  border:1px solid #c79b42;
   color:#c79b42;
   text-decoration:none;
+  border-radius:5px;
+  transition:0.3s;
 }
 
-.btn-entrar:hover{
+.btn-login:hover{
   background:#c79b42;
   color:white;
 }
