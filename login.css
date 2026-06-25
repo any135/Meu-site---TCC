@@ -1,0 +1,37 @@
+.login{
+    width: 400px;
+    margin: 60px auto;
+    padding: 40px;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.login h1{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.login input{
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+}
+
+.login button{
+    width: 100%;
+    padding: 15px;
+    background: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.social-login button{
+    flex: 1;
+}
+
+.social-login{
+    margin-top: 20px;
+    display: flex;
+    gap: 10px;
+}
